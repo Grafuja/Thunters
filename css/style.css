@@ -1,0 +1,213 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ #bannerIndex {
+     /* The image used */
+     background-image: url("../img/city-pablo-garcia.jpg");
+
+     /* Set a specific height */
+     height: 700px;
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+#bannerJuega {
+    /* The image used */
+    background-image: url("../img/juego-Park-lubo-minar-SN.jpg");
+
+    /* Set a specific height */
+    height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bannerComparte {
+    /* The image used */
+    background-image: url("../img/aerialPark-stephen-leonardi.jpg");
+
+    /* Set a specific height */
+    height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bannerGana {
+    /* The image used */
+    background-image: url("../img/premios-igor-miske.jpg");
+
+    /* Set a specific height */
+    height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.LetraRoja{
+  color: #d41700;
+}
+.LetraMarron{
+  color: #c2b497;
+}
+nav ul a,
+nav {
+  color: #c2b497;
+}
+.nav-wrapper{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footerColor{
+  background-color: #c2b497;
+}
+.row {
+    margin-bottom: 0;
+}
+.conBorde{
+  border: 2px solid;
+  border-radius: 2px;
+  border-color: #fff;
+}
+.border{
+  border: solid;
+  border-radius: 5px;
+  padding: 5px;
+  border-color: #c2b497;
+  z-index: 2;
+  box-shadow: 2px;
+}
+
+.containerTxt {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+  padding: 10px;
+}
+p {
+  line-height: 2rem;
+}
+.text-pad-left{
+  padding-left: 10px;
+}
+.imgBnW{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.serviciosCard{
+  background-color: #c2b497;
+  max-height: 300px;
+  overflow: hidden;
+}
+.button-collapse {
+  color: #c2b497;
+}
+.card-servicios{
+  height:auto;
+}
+.marTop{
+  margin-top: 10px;
+}
+.headerPick{
+  font-size: 3.5em !important;
+}
+.letraPesada{
+  font-weight: 500;
+}
+
+#logoGip{
+  max-height: 250px;
+}
+#bannerNuestroOrigen{
+  padding-right: 70px;
+}
+#bannerNosotros h1,h2{
+  padding-left: 15px;
+  font-weight: 700;
+}
+#bannerServicios{
+  padding-left: 15px;
+}
+#logo-container img{
+  max-width: 200px;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  .marTop{
+    margin-top: auto;
+  }
+  .card-servicios{
+  height: auto;
+  }
+  .alturaContent, .serviciosCard{
+    height: auto;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  #logo-container{
+    float: right !important;
+  }
+}
+.nav-wrapper ul{
+ margin-right: 0px !important;
+ padding-right: 10px;
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .marTop{
+    margin-top: auto;
+  }
+  .row.valign-wrapper {
+    display: inherit;
+  }
+  #logo-container{
+    float: right !important;
+  }
+.badge {
+  height: 50px;
+}
+}
+@media only screen and (min-width: 601px) {
+  .containerTxt {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .containerTxt {
+    width: 85%;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
